@@ -8,13 +8,13 @@
 - 检查布尔型表达式并抛出异常
 
 ```
-CheckUtils.checkArgument(1 != 0, () -> new IllegalArgumentException("invalid expression"));
+CheckUtils.checkArgument(1 != 0, () -> new IllegalArgumentException("Invalid expression!"));
 ```
 
 - 检查表达式是否为空并抛出异常
 
 ```
-CheckUtils.checkNotNull(null, () -> new IllegalArgumentException("null expression"));
+CheckUtils.checkNotNull(null, () -> new IllegalArgumentException("Null expression!"));
 ```
 
 
